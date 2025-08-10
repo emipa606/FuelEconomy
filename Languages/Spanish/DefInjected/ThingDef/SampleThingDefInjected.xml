@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-	<TransportPodSmall.label>Cápsula de transporte pequeña</TransportPodSmall.label>
-	<TransportPodSmall.description>Una pequeña cápsula de transporte suborbital despegable capaz de transportar objetos. Se puede utilizar para enviar regalos o suministros.</TransportPodSmall.description>
-
+  <TransportPodSmall.label>Cápsula de transporte pequeña</TransportPodSmall.label>
+  <TransportPodSmall.description>Una pequeña cápsula de transporte suborbital despegable capaz de transportar objetos. Se puede utilizar para enviar regalos o suministros.</TransportPodSmall.description>
 </LanguageData>
