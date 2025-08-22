@@ -1,4 +1,8 @@
 # Changelog for FuelEconomy
 
+1.6.2 - Removed leftover harmony debug-mode
+Used DeepL to update translations for ChineseSimplified, French, German, Spanish
+
+
 1.6.1 - Updated for 1.6
 

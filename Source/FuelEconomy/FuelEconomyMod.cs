@@ -16,9 +16,7 @@ public class FuelEconomyMod : Mod
         // initialize settings
         Settings = GetSettings<Settings>();
         CurrentVersion = VersionFromManifest.GetVersionFromModMetaData(content.ModMetaData);
-        var harmony = new Harmony("Uuugggg.rimworld.Fuel_Economy.main");
-        Harmony.DEBUG = true;
-        harmony.PatchAll(Assembly.GetExecutingAssembly());
+        new Harmony("Uuugggg.rimworld.Fuel_Economy.main").PatchAll(Assembly.GetExecutingAssembly());
     }
 
     public override void DoSettingsWindowContents(Rect inRect)

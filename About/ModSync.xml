@@ -2,7 +2,7 @@
 <ModSyncNinjaData>
   <ID>808c051f-c419-4930-be8e-9f004104f6f1</ID>
   <ModName>Fuel Economy (Continued)</ModName>
-  <Version>1.6.1</Version>
+  <Version>1.6.2</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>emipa606</Owner>
@@ -12,8 +12,4 @@
     <Branch>master</Branch>
   </Host>
 </ModSyncNinjaData>
-
-
-
-
 
