@@ -6,7 +6,7 @@ using Verse;
 namespace Fuel_Economy;
 
 [HarmonyPatch(typeof(Dialog_LoadTransporters), "CheckForErrors")]
-internal class Dialog_LoadTransporters_CheckForErrors
+internal static class Dialog_LoadTransporters_CheckForErrors
 {
     public static void Postfix(ref bool __result, List<CompTransporter> ___transporters,
         List<TransferableOneWay> ___transferables)

@@ -12,7 +12,7 @@ internal static class LaunchableMethods
     // 100% means essentially infinite weight, all fuel is used to launch pod and the content doesn't matter, and that's vanilla so why do that
     private const float vanillaFuelPerTile = 2.25f;
 
-    private const float SmallPodEfficiency = 5; //TODO DefExtensions to make this a xml value?
+    private const float SmallPodEfficiency = 5;
 
     private static readonly PropertyInfo transportersInGroupInfo =
         AccessTools.Property(typeof(CompLaunchable), "TransportersInGroup");
@@ -26,7 +26,7 @@ internal static class LaunchableMethods
             return fuelPerTileBase;
         }
 
-        return fuelPerTileBase / SmallPodEfficiency; //TODO: DefExtension and just divide by that value
+        return fuelPerTileBase / SmallPodEfficiency;
     }
 
     private static float percentFull(CompLaunchable launchable)
@@ -34,6 +34,11 @@ internal static class LaunchableMethods
         float mass = 0;
         float max = 0;
         var transporters = (List<CompTransporter>)transportersInGroupInfo.GetValue(launchable);
+        if (transporters == null)
+        {
+            return 0;
+        }
+
         foreach (var transporter in transporters)
         {
             foreach (var t in transporter.GetDirectlyHeldThings())

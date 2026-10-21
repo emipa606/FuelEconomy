@@ -6,4 +6,13 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="FuelEconomy/Fuel_Economy.csproj" />
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/Languages/English/Keyed/">
+    <File Path="../Languages/English/Keyed/AutoEnglish.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/">
+    <File Path="../1.7/Defs/SmallPod.xml" />
+  </Folder>
 </Solution>

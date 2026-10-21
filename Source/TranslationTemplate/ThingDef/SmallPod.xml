@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: small transport pod -->
+  <TransportPodSmall.label>small transport pod</TransportPodSmall.label>
+  <!-- EN: A small launchable sub-orbital cargo pod capable of carrying items. Can be used for sending gifts or supplies. -->
+  <TransportPodSmall.description>A small launchable sub-orbital cargo pod capable of carrying items. Can be used for sending gifts or supplies.</TransportPodSmall.description>
+</LanguageData>
